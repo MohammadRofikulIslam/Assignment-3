@@ -31,7 +31,7 @@
     <header>
       <!-- navbar section start-->
       <nav
-        class="container max-w-screen-2xl mx-auto py-10 px-8 md:px-16 lg:px-24"
+        class="container max-w-screen-3xl mx-auto py-10 px-8 md:px-16 lg:px-24"
       >
         <div
           class="navbar py-5 bg-white md:bg-[#F85559] lg:bg-[#F85559] md:rounded-full lg:rounded-full"
@@ -46,9 +46,9 @@
               <li class="hover:lg:text-black"><a>All Fruits</a></li>
             </ul>
             <div class="lg:hidden flex items-center gap-2 pl-4">
-              <img src="./images/logo.png" alt="" />
+              <img class="h-10 w-10" src="./images/logo.png" alt="" />
               <h3
-                class="md:text-white lg:text-white text-[#121212] text-lg lg:text-[40px] font-bold cursor-pointer"
+                class="md:text-white lg:text-white text-[#121212] text-lg min-w-full text-w lg:text-[40px] font-bold cursor-pointer"
               >
                 Fruit Burst
               </h3>
@@ -110,7 +110,7 @@
         </div>
       </nav>
       <!-- Banner section start -->
-      <section class="container max-w-screen-2xl mx-auto py-10 px-8 md:px-16 lg:px-24">
+      <section class="container max-w-screen-3xl mx-auto py-10 px-8 md:px-16 lg:px-24">
         <div class="carousel w-full h-[300px] md:h-full">
           <!-- slide 1 -->
             <div id="slide1" class="carousel-item relative w-full ">
@@ -214,7 +214,54 @@
       </section>
     </header>
 
-    <main></main>
+    <main>
+      <!-- Deal Section start -->
+      <section  class="container max-w-screen-3xl mx-auto py-20 px-8 md:px-16 lg:px-24" >
+        <div class="flex flex-col md:flex-row lg:flex-row justify-between items-center mt-0 lg:mt-10 ">
+          <div class="space-y-2 md:space-y-3 lg:space-y-5 text-center md:text-left lg:text-left">
+            <h3 class="text-3xl md:text-3xl lg:text-5xl font-extrabold text-[#121212]">Deal of the day</h3>
+            <p class="text-base md:text-sm lg:text-base font-medium text-[#12121299] md:w-80 lg:w-[615px]">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+          </div>
+
+          <div class="grid grid-flow-col gap-5 text-center auto-cols-max pt-6 md:pt-0 lg:pt-0">
+            <div class="flex flex-col text-[#12121299] text-xs md:text-sm lg:text-base text-left">
+              <span class="countdown text-[#121212] font-extrabold text-3xl md:text-3xl lg:text-5xl">
+                <span style="--value:29;"></span>
+                <i class="fa-solid fa-ellipsis-vertical pl-4"></i>
+              </span>
+              Days
+            </div> 
+            <div class="flex flex-col text-[#12121299] text-xs md:text-sm lg:text-base text-left">
+              <span class="countdown text-[#121212] font-extrabold text-3xl md:text-3xl lg:text-5xl">
+                <span style="--value:15;"></span>
+                <i class="fa-solid fa-ellipsis-vertical pl-4"></i>
+              </span>
+              Hours
+            </div> 
+            <div class="flex flex-col text-[#12121299] text-xs md:text-sm lg:text-base text-left">
+              <span class="countdown text-[#121212] font-extrabold text-3xl md:text-3xl lg:text-5xl">
+                <span style="--value:25;"></span>
+                <i class="fa-solid fa-ellipsis-vertical pl-4"></i>
+              </span>
+              Minutes
+            </div> 
+            <div class="flex flex-col text-[#12121299] text-xs md:text-sm lg:text-base">
+              <span class="countdown text-[#121212] font-extrabold text-3xl md:text-3xl lg:text-5xl">
+                <span style="--value:08;"></span>
+              </span>
+              Seconds
+            </div>
+          </div>
+
+        </div>
+
+
+      </section>
+
+
+
+
+    </main>
 
     <footer></footer>
   </body>
